@@ -4,7 +4,7 @@ Ecommerce API with Laravel including authentication using JWT.
 
 ## Getting Started
 
-- Use JWT AUTH to handle login, register, logout, user profile and refresh token.
+- Use JWT AUTH to handle login, register, logout, user profile and refresh tokens.
 - Create Admin Middleware.
 - Handle authorization user's token.
 - Create Location Crud for user can change his order's location.
@@ -26,6 +26,10 @@ clone Repository in your local pc
 
     git clone https://github.com/Breksam/Ecommerce-API.git
 
+run on your cmd or terminal
+
+    composer install
+
 copy .env.example file to .env on the root folder
 
     copy .env.example .env
@@ -34,8 +38,13 @@ then open your .env file and change the database name (DB_DATABASE) to whatever 
 
 open terminal in the project then:
 run
+
+    php artisan key:generate
+run
+
     php artisan migrate
 run
+
     php artisan serve
 
 ## Running the tests
@@ -45,12 +54,15 @@ Now you can test Routes at postman Platform.
 ### Sample Tests
 
 Reqister route
+
     http://127.0.0.1:8000/api/register
 
 Login route: don't forget copy authorization token
+
     http://127.0.0.1:8000/api/login
 
 Show all orders
+
     http://127.0.0.1:8000/api/order/index
 
 ## License
