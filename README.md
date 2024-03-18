@@ -1,4 +1,4 @@
-# Ecommerce-API
+# E-Commerce_API
 
 Ecommerce API with Laravel including authentication using JWT.
 
