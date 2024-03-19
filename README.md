@@ -16,6 +16,7 @@ Ecommerce API with Laravel including authentication using JWT.
 ### Tools
 
 - Laravel 10.x.
+- JWT.
 
 ### Installing
 
@@ -65,8 +66,10 @@ Show all orders
 
     http://127.0.0.1:8000/api/order/index
 
-## License
+etc...
 
-The MIT License (MIT) 2024 - [Breksam Hassan Elsokkary](https://github.com/Breksam). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
+## Authors
+
+  - **Breksam Hassan Elsokkary** - (https://github.com/Breksam)
 
 
