@@ -37,7 +37,8 @@ copy .env.example file to .env on the root folder
 
 then open your .env file and change the database name (DB_DATABASE) to whatever you have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration.
 
-open terminal in the project then:
+open the terminal in the project then:
+
 run
 
     php artisan key:generate
